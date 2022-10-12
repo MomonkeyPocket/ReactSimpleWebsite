@@ -2,6 +2,18 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Demo
+
+https://peaceful-fortress-63397.herokuapp.com/
+
+## Bootstrap
+
+https://react-bootstrap.github.io/getting-started/introduction
+
+## FontAwesome CDN
+
+https://cdnjs.com/libraries/font-awesome
+
 ## Available Scripts
 
 In the project directory, you can run:

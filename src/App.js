@@ -1,16 +1,21 @@
 import './App.css';
 import Header from './components/HeaderComponent/header';
 import BlogPage from './components/Pages/blogpage';
-import Homepage from './components/Pages/homepage';
+import HomePage from './components/Pages/homepage';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
+    <Router>
+      <div className='App'>
+        <Header />
 
-      <Homepage />
-      <BlogPage />
-    </div>
+        <Routes>
+          <Route path='/' element={<HomePage />} />
+          <Route path='/blog' element={<BlogPage />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
